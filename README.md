@@ -8,3 +8,5 @@ Inside the `pico_esp32` folder here are the files:
 * `pico_central.py`: This is used for the Pico W as it will act as the central device. This code looks for the Peripheral and then connects to it.
 * `esp32_per.py`: This is used for the ESP32 as it will act as the Peripheral. This code will connect to the Central Device and then send data to it.
 * `uuids.json`: This json file contains the UUIDs for the service and characteristic. This should be copied to both devices because without it, neither will work correctly.
+
+![image](https://github.com/sentairanger/Pico-ESP32-BLE/blob/main/pico-esp32_bb.jpg)
