@@ -21,6 +21,13 @@ Inside the `pico_esp32_pot` folder are these files:
 * `pico_central_pwm.py`: This is used to control the brightness of the LED. The brightness is based on the value of the potentiometer.
 * `esp32_per_pot.py`: This is used on the ESP32 to control the potentiometer and send values to the Pico.
 
+Inside the `pico_esp32_button` folder are these files:
+
+* `pico_central.py`: The same code as before except the delay is reduced to 0.1 seconds.
+* `pico_central_led.py`: The same code except it's used to turn on and off an LED when the message is 0 or 1.
+* `esp32_per_button.py`: This is used to send messages to the Pico or to turn on and off the LED using a button.
+
 
 ![image](https://github.com/sentairanger/Pico-ESP32-BLE/blob/main/pico-esp32_bb.jpg)
 ![image](https://github.com/sentairanger/Pico-ESP32-BLE/blob/main/pico-esp32-pot_bb.jpg)
+![image](https://github.com/sentairanger/Pico-ESP32-BLE/blob/main/pico-esp32-button_bb.jpg)
